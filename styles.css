@@ -1,0 +1,99 @@
+body {
+    background-image: url(weddingstage.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+h2 {
+    margin-top: 0;
+    text-align: center;
+    padding-bottom: 15px;
+    border-bottom: 2px solid black;
+}
+
+.container {
+    margin-top: 10%;
+    background-color: rgba(255, 255, 255, 1);
+    margin-left: 35%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    height: auto;
+}
+
+form {
+    text-align: center;
+}
+
+label {
+    margin-bottom: 15px;
+    display: inline-block;
+}
+
+input {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 60%;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 25%;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Mobile Responsiveness */
+@media screen and (max-width: 768px) {
+    .container {
+        margin-left: 10%;
+        width: 80%;
+        height: auto;
+        /* Adjust height for better mobile experience */
+    }
+
+    input {
+        width: 60%;
+        /* Increase input field width on smaller screens */
+    }
+
+    button {
+        width: 40%;
+        /* Increase button width on smaller screens */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    h2 {
+        font-size: 1.5rem;
+        /* Adjust font size for mobile */
+    }
+
+    .container {
+        margin-left: 0;
+        width: 90%;
+        height: auto;
+    }
+
+    input {
+        width: 60%;
+        /* Ensure the input fields are full width on mobile */
+    }
+
+    button {
+        width: 40%;
+        /* Ensure button is large enough on mobile */
+    }
+}
